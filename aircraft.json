@@ -1,0 +1,64 @@
+{
+    "mass": 171000,
+    "inertia":,
+    "dragCoefficient": 0.02,
+    "frontArea": 35,
+    "thrust": 480000,
+    "cruiseSpeed": 480,
+    "climbRate": 25,
+    "stallspeed": 120,
+    "glimits": [-2, 4],
+    "airfoils": [
+        {
+            "name": "left_wing",
+            "position": [-15, 0, 0],
+            "area": 155,
+            "liftCoefficient": 0.1,
+            "dragCoefficient": 0.015
+        },
+        {
+            "name": "right_wing",
+            "position":,
+            "area": 155,
+            "liftCoefficient": 0.1,
+            "dragCoefficient": 0.015
+        },
+        {
+            "name": "horizontal_stabilizer",
+            "position": [0, -35, 2],
+            "area": 45,
+            "liftCoefficient": 0.08,
+            "dragCoefficient": 0.01
+        },
+        {
+            "name": "vertical_stabilizer",
+            "position": [0, -35, 5],
+            "area": 35,
+            "liftCoefficient": 0.08,
+            "dragCoefficient": 0.01
+        }
+    ],
+    "landingGear": [
+        {
+            "name": "nose",
+            "position": [0, 15, -4],
+            "contactPoint": true,
+            "steering": true,
+            "suspension": true
+        },
+        {
+            "name": "left_main",
+            "position": [-5, -2, -4],
+            "contactPoint": true,
+            "brake": true,
+            "suspension": true
+        },
+        {
+            "name": "right_main",
+            "position": [5, -2, -4],
+            "contactPoint": true,
+            "brake": true,
+            "suspension": true
+        }
+    ]
+}
